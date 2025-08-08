@@ -3,7 +3,7 @@
 Empowering Inclusive E-Deliberation by Harnessing Collective Wisdom and Minority Perspectives using AI and LLMs
 
 ![plot](./Resource/Gemini_Generated_Image_rjqa53rjqa53rjqa (2).png)
-
+Resource/Gemini_Generated_Image_rjqa53rjqa53rjqa (2).png
 # Folders description:
 
 * LLM as a Judge: Contains code and data to validate synthesized arguments using LLMs.
