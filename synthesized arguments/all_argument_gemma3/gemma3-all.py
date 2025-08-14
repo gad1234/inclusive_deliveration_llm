@@ -133,7 +133,7 @@ async def background_task():
         version='_v1'
         df_opinions = pd.read_csv('7repres-docs-topic-color-stance.csv') 
  
-        filename = 'gemma3_1shot_all'
+        filename = model_config + '_1shot_all'
         
         colum = ["topic", "response", "prompt"]
         repres_docs_aux = pd.DataFrame(columns=colum)

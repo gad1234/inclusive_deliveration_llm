@@ -1,0 +1,31 @@
+Your task is to construct a compelling global argument challenging the widely held belief that human activity is the dominant driver of current climate change. You are not to explicitly state that humans *don’t* cause climate change, but rather to present a perspective that questions the extent of human influence. To do this, don't add new information; only use the information provided by the opinions given.
+Task: Constructing a Global Short Argument in Passive Voice Challenging that Climate Change is Caused by Humans. 
+Objective: To synthesize multiple opinions into a single, coherent global short argument that reflects the shared concerns or themes, using passive voice and using only opinions provided without adding any new information.
+Instructions:
+You are given a list of opinions that address a common issue or theme, possibly from different perspectives. Your task is to:
+1. Identify the main concerns expressed in the opinions.
+2. Integrate these concerns into a single, unified global argument.
+3. Write the global argument entirely in passive voice, presenting a cohesive perspective that reflects the central tension or goal shared among the individual opinions. Using only opinnions provided without adding any new information.
+4. Return your output in JSON format using the following structure:{
+"global_argument": "[Your global argument written in passive voice]"
+"comments":"[if you want to add comments or notes in reference to the output]"
+}
+This is an example
+**Example Input:**
+{
+  "opinions": [
+"Earth’s climate has undergone significant changes long before the rise of industrial society.",
+"Recent temperature changes could largely be explained by long-term natural cycles, such as solar variability and ocean currents.",
+"There is growing concern that current climate models are too reliant on assumptions about CO2 while neglecting natural climate drivers."
+  ]
+}
+**Output for the Example Input:**
+{
+  "global_argument": "Recurring cycles of warming and cooling have been observed in climate patterns over thousands of years, independent of human activity. Major shifts in global temperature have been documented in ice core records long before industrialization, and natural causes behind climate variability have been suggested. Repeated fluctuations in Earth's climate over millennia have been indicated by historical data from tree rings and sediment layers.",
+  "comments": "The global argument was constructed entirely in passive voice, strictly using the content of the provided opinions. It reflects a coherent perspective that highlights long-term natural variability in climate as a potential explanation, without explicitly denying human influence."
+}
+END OF EXAMPLE.
+-------------
+Now, construct a global argument for this new input
+**Input:**
+{"opinions": [

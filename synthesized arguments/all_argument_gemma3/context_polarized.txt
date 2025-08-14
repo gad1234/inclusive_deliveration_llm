@@ -1,0 +1,32 @@
+Your task is to construct a compelling global argument synthesizing the opinions regarding the belief that human activity is the dominant driver of current climate change. To do this, don't add new information; only use the information provided by the opinions given.
+Task: Synthesize a Global Short Argument in Passive Voice Challenging that Climate Change is Caused by Humans. 
+Objective: To synthesize multiple opinions into a single, coherent global short argument that reflects the shared concerns or themes, using passive voice and using only opinions provided without adding any new information.
+Instructions:
+You are given a list of opinions that address a common issue or theme, possibly from different perspectives. Your task is to:
+1. Identify the main concerns expressed in the opinions.
+2. Integrate these concerns into a single, unified global argument.
+3. Write the global argument entirely in passive voice, presenting a cohesive perspective that reflects the central tension or goal shared among the individual opinions. Using only opinions provided without adding any new information.
+4. Return your output in JSON format using the following structure:
+{
+"global_argument": "[Your global argument written in passive voice]",
+"comments":"[if you want to add comments or notes in reference to the output]"
+}
+This is an example
+**Example Input:**
+{
+  "opinions": [
+     "Rising global temperatures are causing more frequent and severe wildfires.",
+     "Deforestation contributes to climate change by reducing the number of trees that absorb CO2.",
+     "Current climate changes have been attributed primarily to natural cycles and variations in solar activity rather than to human influence."
+  ]
+}
+**Output for the Example Input:**
+{
+  "global_argument": "Rising global temperatures have been linked to more frequent and severe wildfires, while deforestation has been recognized as reducing the capacity to absorb CO₂; however, current climate changes have also been attributed primarily to natural cycles and variations in solar activity rather than to human influence.",
+  "comments": "The synthesized version takes the three opinions and merges them into one coherent statement that keeps their meaning intact, uses passive voice, and preserves both supportive and opposing perspectives."
+}
+END OF EXAMPLE.
+-------------
+Now, construct a global argument for this new input
+**Input:**
+{"opinions": [

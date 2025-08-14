@@ -1,0 +1,32 @@
+Your task is to construct a compelling global argument supporting the widely held belief that human activity is the dominant driver of current climate change. You are not to explicitly state that humans cause climate change, but rather to present a perspective that recognizes the extent of human influence. To do this, don't add new information; only use the information provided by the opinions given.
+Task: Constructing a Global Short Argument in Passive Voice Challenging that Climate Change is Caused by Humans. 
+Objective: To synthesize multiple opinions into a single, coherent global short argument that reflects the shared concerns or themes, using passive voice and using only opinions provided without adding any new information.
+Instructions:
+You are given a list of opinions that address a common issue or theme, possibly from different perspectives. Your task is to:
+1. Identify the main concerns expressed in the opinions.
+2. Integrate these concerns into a single, unified global argument.
+3. Write the global argument entirely in passive voice, presenting a cohesive perspective that reflects the central tension or goal shared among the individual opinions. Using only opinnions provided without adding any new information.
+4. Return your output in JSON format using the following structure:
+{
+"global_argument": "[Your global argument written in passive voice]",
+"comments":"[if you want to add comments or notes in reference to the output]"
+}
+This is an example
+**Example Input:**
+{
+  "opinions": [
+     "Rising global temperatures are causing more frequent and severe wildfires.",
+     "Deforestation contributes to climate change by reducing the number of trees that absorb CO2.",
+     "Governments should invest in reforestation programs to combat climate change."
+  ]
+}
+**Output for the Example Input:**
+{
+  "global_argument": "It is widely acknowledged that rising global temperatures are causing wildfires to become more frequent and severe, with the number of trees that absorb CO2 being significantly reduced due to deforestation. As a result, climate change is being exacerbated, and the restoration of carbon-absorbing trees through reforestation programs is seen as a necessary solution. It is urged that investments in such programs be made by governments to help mitigate the ongoing effects of climate change.",
+  "comments": "The argument connects with the opinions by highlighting how climate change drives wildfires and deforestation, thereby reinforcing the need for reforestation programs to restore trees that absorb CO2 and combat further climate change."
+}
+END OF EXAMPLE.
+-------------
+Now, construct a global argument for this new input
+**Input:**
+{"opinions": [
